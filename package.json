@@ -1,6 +1,6 @@
 {
   "name": "beeblebrix-ui",
-  "description": "Two test React components",
+  "description": "UI components library for React Js",
   "author": "omer.tuna",
   "keywords": [
     "react",
@@ -16,6 +16,10 @@
     "dist",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omeremrecan/beeblebrix-ui.git"
+  },
   "scripts": {
     "build": "tsc"
   },
