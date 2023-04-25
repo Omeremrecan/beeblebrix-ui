@@ -4,7 +4,7 @@ import { ButtonContainer } from './Button.styles'
 
 export const Button = ({ title, onClick }: ButtonProps) => {
   return (
-    <ButtonContainer className="button" onClick={onClick}>
+    <ButtonContainer onClick={onClick}>
       {title}
     </ButtonContainer>
   )
